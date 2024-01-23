@@ -1,0 +1,81 @@
+@media (max-width:600px) {
+ html{
+    font-size: 27%;
+ }   
+ .pg1{
+   height: 70vh;
+ }
+ .pg2{
+    height: 65vh;
+    
+ }
+ .pg3{
+    height: 100vh;
+ }
+ .pg3 .content{
+    flex-direction: column;
+    height: 90%;
+ }
+ .pg3 .content section{
+    width: 95%;
+    height: 30%;
+ }
+.pg4{
+   flex-direction: column;
+   height: fit-content;
+   padding-left: 0;
+
+}
+.pg4 h1{
+   line-height: normal;
+}
+.pg4 .left, .pg4 .right{
+   width: 100vw;
+   margin-top: 5rem;
+   
+}
+.pg4 .left{
+   padding-left:2rem ;
+}
+
+.pg5 section{
+   flex-direction: column;
+}
+.pg5 .left, .pg5 .right{
+   width: 95vw;
+}
+.pg6{
+   height: fit-content;
+   margin-top:7rem ;
+}
+.pg7{
+   flex-direction: column;
+height: fit-content;
+}
+.pg7 .left, .pg7 .right{
+   width: 95vw;
+   height: fit-content;
+   margin-top: 5rem;
+}
+footer{
+   height: 50vh;
+   margin-top: 30rem;
+}
+.f1 input{
+   height: 15%;
+}
+}
+@media (max-width:900px) {
+   .pg3 .content{
+      height: 65vh;
+   }
+   .pg7{
+      height: 65vh;
+   }
+   footer{
+      margin-top: 20rem;
+   }
+   .f1 input{
+      height:10% ;
+   }
+}
